@@ -2,7 +2,7 @@
 
 // foreach;
 // Map;
-// File;
+//Filter;
 // reduce
 
 // We created array;
