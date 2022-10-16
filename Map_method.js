@@ -1,0 +1,3 @@
+// Map Method in JS;
+
+
