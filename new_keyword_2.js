@@ -39,7 +39,16 @@ const user1 = new CreateUser("Muhammad Hasan","Ali",21,"ha03330224926@gmail.com"
 const user2 = new CreateUser("Muhammad Umer","Ali",18,"ha03330224926@gmail.com","Umeraddress");
 const user3 = new CreateUser("Muhammad Talha","Ali",19,"ha03330224926@gmail.com","Tysionaddress");
 
-console.log(user1);
 console.log(user1.about());
 console.log(user1.sing());
+
+// Agr mjhe user ki khud ki property chyie aur prototype wali nahi chyie tu hasOwnProperty ka use karunga;
+
+for (let key in user1) {
+    // console.log(key);
+    if(user1.hasOwnProperty(key)){
+        console.log(key);  // about , sing , is18 user1 ki khud ki property nai ha prototype ki ha tu wo print nahi hoga
+    }
+}
+
 
