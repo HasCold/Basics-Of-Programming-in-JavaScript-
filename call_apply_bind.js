@@ -1,5 +1,7 @@
 // ************************Call Apply Bind**************
 
+// In JavaScript, the this keyword refers to an object. Which object depends on how this is being invoked (used or called).
+
 function about(hobby, favshow){
     console.log(this.firstName,this.age, hobby, favshow)
 }
