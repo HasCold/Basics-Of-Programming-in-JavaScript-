@@ -8,7 +8,7 @@ const obj = {
 
 }
 
-// const obj1 = {...obj}; // cloning ka ye tariqa ha ke obj1 ma key3 ki vlaue clone nahi hogi
+// const obj1 = {...obj}; // cloning ka ye tariqa ha ke obj1 ma key3 ki value clone nahi hogi
 const obj1 = Object.assign({},obj);
 obj.key3 = "value3";
 console.log(obj);
